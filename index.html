@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=BenchNine' rel='stylesheet'>
@@ -18,24 +18,34 @@
     <title>International Relations | IIT Kharagpur</title>
     <style>
         body {
-            background-color: cornflowerblue;
+            background-color: rgb(255, 255, 255);
+            margin-left: -2vw;
+        }
+        ::-webkit-scrollbar {
+            width: 0px;  /* Remove scrollbar space */
+            background: transparent;  /* Optional: just make scrollbar invisible */
+        }
+        /* Optional: show position indicator in red */
+        ::-webkit-scrollbar-thumb {
+            background: #FF0000;
         }
         .imgbg {
-            width:27vw;
+            width:18vw;
+            height: 18vw;
             position: absolute;
-            top:40vh;
-            left: 0vw;
+            top:41vh;
+            left: 8vw;
+            border-radius: 250px;
         }
         .imgbg1 {
-            width:100vw;
+            width:50vw;
             position: absolute;
             top:0vh;
-            left: 0vw;
+            left: 30vw;
             height:100vh;
         }
         .conte {
-            background: url('profbg1.jpg');
-            background-size: 35vw 35vh;
+            background-color: white;
             top: 0vh;
             left: 0vw;
             width: 100vw;
@@ -51,20 +61,21 @@
         }
         .propic {
             width:15vw;
+            height: 15vw;
             position: absolute;
-            top: 47vh;
-            left: 8vw;
+            top: 44vh;
+            left: 9.5vw;
             border-radius:250px;
         }
         .name {
             position: absolute;
-            top:10vh;
-            left:4vw;
-            font-family: 'Audiowide';
-            font-size: 2.6vw;
-            font-weight: 900;
-            background: url('common-banner.png');
-            color: rgb(8, 29, 100);
+            top:5vh;
+            left:7vw;
+            font-family: 'Asap';
+            font-size: 3.1vw;
+            font-weight: 100;
+            background: url('profbg7.png');
+            color: rgb(4, 51, 29);
             background-size: 6.25vw 6.25vh;
             -webkit-background-clip: text;
         }
@@ -72,75 +83,120 @@
             position: absolute;
             font-family: 'Advent Pro';
             font-size: 22px;
-            background: url('common-banner.png');
-            color: rgb(8, 29, 100);
+            background: url('profbg7.png');
+            color:green;
             background-size: 100px 50px;
             -webkit-background-clip: text;
         }
         .cv {
             position:absolute;
-            top:90vh;
+            top:85vh;
             width:12vw;
             height:6vh;
             border-radius: 100px;
             border: 1px solid whitesmoke;
             font-size: 1.2vw;
-            background: url('common-banner.png');
+            background: url('profbg7.png');
             color: white;
             font-family: "Asap";
             background-size: 12vw 6vh;
+            opacity: 0.7;
         }
         .gc {
             position:absolute;
-            top:90.3vh;
+            opacity: 0.7;
+            top:85.3vh;
             width:11.7vw;
             height:5.4vh;
             border-radius: 100px;
             border: 2px solid whitesmoke;
             font-size: 1.2vw;
-            color: white;
+            color: rgb(255, 255, 255);
             font-family: "Asap";
-            background: url('common-banner.png');
-            color: rgba(255, 255, 255, 1);
+            background: url('profbg7.png');
             background-size: 12vw 6vh;
-            transition: 0.3s;
+            transition: 0.5s;
+            box-shadow: 0px 0px 0px gold;
+        }
+        .gc1 {
+            position:absolute;
+            top:85.3vh;
+            width:11.7vw;
+            height:5.4vh;
+            border-radius: 100px;
+            border: 2px solid whitesmoke;
+            font-size: 1.2vw;
+            color: rgb(224, 223, 223);
+            font-family: "Asap";
+            background-color: transparent;
+            transition: 0.5s;
+            box-shadow: 0px 0px 0px gold;
         }
         .gc:hover {
-            background: url('common-banner1.png');
+            box-shadow: 0px 0px 20px gold;
+            opacity: 1;
             color: rgba(255, 255, 255, 1);
             background-size: 12vw 6vh;
+        }
+        .listitem {
+            position: absolute;
+            width:17.20vw;
+            border: 1px solid white;
+            background-color: white;
+            left:0.2vw;
+            color:#504125;
         }
     </style>
     <body>
         <section>
             <div class="conte">
-                <div>
-                    <div class="col-sm-4">
-                        <div class="about_img">
+                <div style="box-shadow: 0px 0px 20px black;">
+                    <div class="col-sm-1" style="height:100vh;background-color: white;">
+                        
+                        <div class="list" style="position:absolute;top:3vh;left:4vw;width:4.33vw;opacity:0.85;border-top-left-radius: 20px;border-bottom-left-radius: 20px;background: url('profbg7.png') left no-repeat;background-size: 250% 110%;box-shadow: -5px 0px 20px black;z-index:10;height: 94vh;"></div>
+                    </div>
+                    <div class="col-sm-4" style="top:3vh;height:94vh;margin-left:-1vw;">
+                        <div class="about_img" style="box-shadow: 0px 0px 20px black;border-right:5px solid rgba(2, 58, 41, 0.845);z-index:1111;height:94vh;width:32.43vw;background:url('profbg5.jpg') center repeat;background-size: 45vw 35vh;">
                             <h2 class="name">TRIDEV RAPETI</h2>
-                            <a class="otherdet" style="top:20vh;left:7vw;"><b style="color: rgba(0, 0, 0, 0.226);">Roll Number : </b>19MA20040</a>
-                            <a class="otherdet" style="top:25vh;left:7vw;"><b style="color: rgba(0, 0, 0, 0.226);">Department : </b>Mathematics</a>
-                            <a class="otherdet" style="top:30vh;left:7vw;"><b style="color: rgba(0, 0, 0, 0.226);">Year of study : </b>2</a>
-                            <a class="otherdet" style="top:35vh;left:7vw;"><b style="color: rgba(0, 0, 0, 0.226);">CGPA : </b>8.52</a>
-                            <img class="imgbg1" src="home-banner3.png">
-                            <img class="imgbg" src="testimonial-bg.png">
+                            <a class="otherdet" style="top:15vh;left:10.5vw;"><b style="color: rgba(0, 0, 0, 0.226);">Roll Number : </b>19MA20040</a>
+                            <a class="otherdet" style="top:20vh;left:10.5vw;"><b style="color: rgba(0, 0, 0, 0.226);">Department : </b>Mathematics</a>
+                            <a class="otherdet" style="top:25vh;left:10.5vw;"><b style="color: rgba(0, 0, 0, 0.226);">Year of study : </b>2</a>
+                            <a class="otherdet" style="top:30vh;left:10.5vw;"><b style="color: rgba(0, 0, 0, 0.226);">CGPA : </b>8.52</a>
+
+                            <img class="imgbg" src="profbg7.png">
                             <img class="propic" src="profilepic.jpeg">
                             <button class="cv" style="left:2vw;" value="Curriculum Vitae">Curriculum Vitae</button>
                             <button class="gc" style="left:2.15vw;" value="Curriculum Vitae">Curriculum Vitae</button>
+                            <button class="gc1" style="left:2.15vw;" value="Curriculum Vitae">Curriculum Vitae</button>
                             <button class="cv" style="left:20vw;" value="Curriculum Vitae">Grade Card</button>
                             <button class="gc" style="left:20.15vw;" value="Curriculum Vitae">Grade Card</button>
+                            <button class="gc1" style="left:20.15vw;" value="Curriculum Vitae">Grade Card</button>
                         </div>
                     </div>
-    
-                    <div class="col-sm-8">
-                        <h1 style="font-family: 'Audiowide';font-size: 35px;font-weight: 900;position:absolute;top:8vh;left:35vw;color:white;">S . O . P</h1>
-                        <hr style="width:20vw;position:absolute;top:14vh;left:29.5vw;">
-                        <p style="padding-left:14.25vw;padding-right: 4vw;padding-top:20vh;color:white;text-align: center;">Was certainty remaining engrossed applauded sir how discovery. Settled opinion how enjoyed greater joy adapted too shy. Now properly surprise expenses interest nor replying she she. Bore tall nay many many time yet less. Doubtful for answered one fat indulged margaret sir shutters together. Ladies so in wholly around whence in at. Warmth he up giving oppose if. Impossible is dissimilar entreaties oh on terminated. Earnest studied article country ten respect showing had. But required offering him elegance son improved informed. Folly words widow one downs few age every seven. If miss part by fact he park just shew. Discovered had get considered projection who favourable. Necessary up knowledge it tolerably. Unwilling departure education is be dashwoods or an. Use off agreeable law unwilling sir deficient curiosity instantly. Easy mind life fact with see has bore ten. Parish any chatty can elinor direct for former. Up as meant widow equal an share least. For though result and talent add are parish valley. Songs in oh other avoid it hours woman style. In myself family as if be agreed. Gay collected son him knowledge delivered put. Added would end ask sight and asked saw dried house. Property expenses yourself occasion endeavor two may judgment she. Me of soon rank be most head time tore. Colonel or passage to ability. Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of. We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. In alteration insipidity impression by travelling reasonable up motionless. Of regard warmth by unable sudden garden ladies. No kept hung am size spot no. Likewise led and dissuade rejoiced welcomed husbands boy. Do listening on he suspected resembled. Water would still if to. Position boy required law moderate was may. So by colonel hearted ferrars. Draw from upon here gone add one. He in sportsman household otherwise it perceived instantly. Is inquiry no he several excited am. Called though excuse length ye needed it he having. Whatever throwing we on resolved entrance together graceful. Mrs assured add private married removed believe did she.</p>
+                    <div class="col-sm-5" style="box-shadow: 0px 0px 20px black;top:3vh;height:94vh;background-color:#ffcf76;text-align: center;align-content: center;">
+                        <h1 style="font-family: 'Audiowide';font-size: 35px;font-weight: 900;color:rgb(4, 51, 29);">S . O . P</h1>
+                        <hr style="width:20vw;border-color: rgb(4, 51, 29);">
+                        <p style="padding-left:30px;padding-right:30px;color:rgb(4, 51, 29);text-align: center;">Was certainty remaining engrossed applauded sir how discovery. Settled opinion how enjoyed greater joy adapted too shy. Now properly surprise expenses interest nor replying she she. Bore tall nay many many time yet less. Doubtful for answered one fat indulged margaret sir shutters together. Ladies so in wholly around whence in at. Warmth he up giving oppose if. Impossible is dissimilar entreaties oh on terminated. Earnest studied article country ten respect showing had. But required offering him elegance son improved informed. Folly words widow one downs few age every seven. If miss part by fact he park just shew. Discovered had get considered projection who favourable. Necessary up knowledge it tolerably. Unwilling departure education is be dashwoods or an. Use off agreeable law unwilling sir deficient curiosity instantly. Easy mind life fact with see has bore ten. Parish any chatty can elinor direct for former. Up as meant widow equal an share least. For though result and talent add are parish valley. Songs in oh other avoid it hours woman style. In myself family as if be agreed. Gay collected son him knowledge delivered put. Added would end ask sight and asked saw dried house. Property expenses yourself occasion endeavor two may judgment she. Me of soon rank be most head time tore. Colonel or passage to ability. Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of. We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. In alteration insipidity impression by travelling reasonable up motionless. Of regard warmth by unable sudden garden ladies. No kept hung am size spot no. Likewise led and dissuade rejoiced welcomed husbands boy. Do listening on he suspected resembled. Water would still if to. Position boy required law moderate was may. So by colonel hearted ferrars. Draw from upon here gone add one. He in sportsman household otherwise it perceived instantly. Is inquiry no he several excited am. Called though excuse length ye needed it he having. Whatever throwing we on resolved entrance together graceful. Mrs assured add private married removed believe did she.</p>
+                    </div>
+                    <div class="col-sm-2" style="border-radius:20px;top:1vh;height:98vh;background: url('profbg8.jpg') left no-repeat;background-size: 250% 100%;">
+                        <div class="list" style="border-radius:20px;position:absolute;top:0px;left:0px;width:17.66vw;opacity:0.85;background: url('profbg7.png') left no-repeat;background-size: 250% 110%;box-shadow: -5px 0px 30px black;z-index:10;height: 98vh;">
+                            <div class="listitem" style="top:0.2vw;height:11vh;border-top-right-radius: 20px;border-top-left-radius: 20px;">
+                                <img src="ircelllogo1.png" style="position:fixed;top:4vh;left:80.7vw;width:2.5vw;height:5vh">
+                                <img src="logo.png" style="position:fixed;top:4vh;left:83.2vw;width:2.5vw;height:5vh">
+                                <img src="ircelllogo2.png" style="position:fixed;top:4vh;left:85.7vw;width:11.5vw;height:5vh">
+                            </div>
+                            <div class="listitem" style="height:11vh;vertical-align:middle;top:5.7vw;font-family:'Asap Condensed';font-size:2.5vh;align-content: center;text-align: center;">
+                                <p style="line-height:11vh;">Mathematics and Computing</p>
+                            </div>
+                            <hr style="width:17.20vw;position:fixed;top:21.6vh;left:80.5vw;color:white;border-color: rgba(255, 255, 255, 0.774);border:1px dashed ">
+                            <div class="listitem" style="height:7vh;vertical-align:middle;top:5.7vw;font-family:'Asap Condensed';font-size:2.5vh;align-content: center;text-align: center;">
+                                <img src="profilepic.jpeg" style="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="list">
-
             </div>
         </section>
     </body>
